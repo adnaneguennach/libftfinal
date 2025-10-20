@@ -3,24 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strmapi.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aguennac <aguennac@student.1337.ma>        +#+  +:+       +#+        */
+/*   By: aguennac <aguennac@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/20 13:10:48 by aguennac          #+#    #+#             */
-/*   Updated: 2025/10/20 13:10:48 by aguennac         ###   ########.fr       */
+/*   Updated: 2025/10/20 14:25:44 by aguennac         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-
-int	ft_strlen(const char *str)
-{
-	int	i;
-
-	i = 0;
-	while (str[i])
-		i++;
-	return (i);
-}
+#include "libft.h"
 
 char	to_upper(unsigned int i, char c)
 {

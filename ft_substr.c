@@ -6,25 +6,12 @@
 /*   By: aguennac <aguennac@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/18 23:42:29 by aguennac          #+#    #+#             */
-/*   Updated: 2025/10/19 00:04:40 by aguennac         ###   ########.fr       */
+/*   Updated: 2025/10/20 14:26:25 by aguennac         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-static void	*ft_memcpy(void *dest, const void *src, size_t n)
-{
-	unsigned char		*d;
-	const unsigned char	*s;
-
-	d = (unsigned char *)dest;
-	s = (const unsigned char *)src;
-	if (!d && !s)
-		return (NULL);
-	while (n--)
-		*d++ = *s++;
-	return (dest);
-}
 
 char	*ft_substr(const char *s, unsigned int start, size_t len)
 {

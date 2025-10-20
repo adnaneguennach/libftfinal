@@ -6,13 +6,13 @@
 /*   By: aguennac <aguennac@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/18 13:24:48 by aguennac          #+#    #+#             */
-/*   Updated: 2025/10/20 13:53:16 by aguennac         ###   ########.fr       */
+/*   Updated: 2025/10/20 14:24:36 by aguennac         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_strlen(const char *str)
+size_t	ft_strlen(const char *str)
 {
 	int	i;
 
