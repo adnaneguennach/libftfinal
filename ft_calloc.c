@@ -6,7 +6,7 @@
 /*   By: aguennac <aguennac@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/18 20:28:19 by aguennac          #+#    #+#             */
-/*   Updated: 2025/10/20 14:40:15 by aguennac         ###   ########.fr       */
+/*   Updated: 2025/10/20 14:46:53 by aguennac         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,18 +14,16 @@
 
 void	*ft_calloc(size_t nmemb, size_t size)
 {
-	size_t			total;
 	size_t			i;
 	unsigned char	*ptr;
 
 	if ((nmemb * size) > SIZE_MAX) 
 		return NULL;
-	total = nmemb * size;
-	ptr = malloc(total);
+	ptr = malloc(nmemb * size);
 	if (!ptr)
 		return (NULL);
 	i = 0;
-	while (i < total)
+	while (i < size)
 	{
 		ptr[i] = 0;
 		i++;
