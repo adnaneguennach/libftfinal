@@ -6,7 +6,7 @@
 /*   By: aguennac <aguennac@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/18 14:04:20 by aguennac          #+#    #+#             */
-/*   Updated: 2025/10/18 14:14:54 by aguennac         ###   ########.fr       */
+/*   Updated: 2025/10/20 13:50:45 by aguennac         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,4 +44,3 @@ size_t	ft_strlcat(char *dst, const char *src, size_t size)
 	dst[dst_len] = '\0';
 	return (dst_len - i + src_len);
 }
-

@@ -6,7 +6,7 @@
 /*   By: aguennac <aguennac@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/18 13:52:12 by aguennac          #+#    #+#             */
-/*   Updated: 2025/10/18 13:58:55 by aguennac         ###   ########.fr       */
+/*   Updated: 2025/10/20 13:53:10 by aguennac         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,4 +32,3 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t size)
 	}
 	return (src_len);
 }
-

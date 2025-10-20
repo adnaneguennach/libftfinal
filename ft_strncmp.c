@@ -6,7 +6,7 @@
 /*   By: aguennac <aguennac@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/18 14:42:48 by aguennac          #+#    #+#             */
-/*   Updated: 2025/10/18 14:49:29 by aguennac         ###   ########.fr       */
+/*   Updated: 2025/10/20 13:53:32 by aguennac         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,4 +27,3 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 		return (0);
 	return ((unsigned char)s1[i] - (unsigned char)s2[i]);
 }
-

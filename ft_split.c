@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aguennac <aguennac@student.1337.ma>        +#+  +:+       +#+        */
+/*   By: aguennac <aguennac@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/20 13:10:31 by aguennac          #+#    #+#             */
-/*   Updated: 2025/10/20 13:10:31 by aguennac         ###   ########.fr       */
+/*   Updated: 2025/10/20 13:45:36 by aguennac         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -80,9 +80,9 @@ char	**ft_split(char *str, char *sep)
 			str++;
 		if (*str)
 			start = str;
-			while (*str && !is_sep(*str, sep))
-				str++;
-			arr[i++] = word_dup(start, str);
+		while (*str && !is_sep(*str, sep))
+			str++;
+		arr[i++] = word_dup(start, str);
 	}
 	arr[i] = NULL;
 	return (arr);

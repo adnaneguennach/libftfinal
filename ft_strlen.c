@@ -6,7 +6,7 @@
 /*   By: aguennac <aguennac@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/18 13:24:48 by aguennac          #+#    #+#             */
-/*   Updated: 2025/10/18 13:25:42 by aguennac         ###   ########.fr       */
+/*   Updated: 2025/10/20 13:53:16 by aguennac         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,4 +21,3 @@ int	ft_strlen(const char *str)
 		i++;
 	return (i);
 }
-
