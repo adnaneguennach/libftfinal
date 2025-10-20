@@ -6,7 +6,7 @@
 /*   By: aguennac <aguennac@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/20 13:11:08 by aguennac          #+#    #+#             */
-/*   Updated: 2025/10/20 14:25:12 by aguennac         ###   ########.fr       */
+/*   Updated: 2025/10/20 14:39:50 by aguennac         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,7 @@
 # include <stdlib.h>
 # include <unistd.h>
 # include <stdio.h>
+# include <stdint.h>
 
 typedef struct s_list
 {

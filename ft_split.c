@@ -6,7 +6,7 @@
 /*   By: aguennac <aguennac@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/20 13:10:31 by aguennac          #+#    #+#             */
-/*   Updated: 2025/10/20 14:18:41 by aguennac         ###   ########.fr       */
+/*   Updated: 2025/10/20 14:37:13 by aguennac         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -73,7 +73,7 @@ char	**ft_split(const char *s, char c)
 	int		i;
 	const char	*start;
 
-	if (!s || !c)
+	if (!s)
 		return (NULL);
 	wc = count_words(s, c);
 	arr = (char **)malloc(sizeof(char *) * (wc + 1));
