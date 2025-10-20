@@ -6,11 +6,9 @@
 /*   By: aguennac <aguennac@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/20 14:11:32 by aguennac          #+#    #+#             */
-/*   Updated: 2025/10/20 14:30:03 by aguennac         ###   ########.fr       */
+/*   Updated: 2025/10/20 14:32:43 by aguennac         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include "libft.h"
 
 #include "libft.h"
 
